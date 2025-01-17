@@ -1,11 +1,11 @@
 [
   {
-    "firebase_q": false
+    "firebase_q": true
   },
   {
     "firebase_y": true
   },
   {
-    "firebase_r": true
+    "firebase_r": false
   }
 ]

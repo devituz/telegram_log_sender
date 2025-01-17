@@ -1,11 +1,11 @@
 name: telegram_log_sender
 description: "A Flutter package for sending logs to a Telegram user via a bot"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/devituz/telegram_log_sender
 
 environment:
   sdk: ^3.6.0
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   dio: ^5.0.0
@@ -17,10 +17,11 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+# Information on the generic Dart part of this file:
+# For more information, check the following page:
+# https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter packages.
+# Flutter-specific configurations:
 flutter:
   plugin:
     platforms:
@@ -28,22 +29,15 @@ flutter:
         package: com.devituz.telegram_log_sender
         pluginClass: TelegramLogSender
 
-  # To add assets to your package, add an assets section, like this:
+  # Example of how to add assets to your package:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   #
-  # For details regarding assets in packages, see
+  # For details regarding assets in packages, refer to:
   # https://flutter.dev/to/asset-from-package
-  #
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/to/resolution-aware-images
 
-  # To add custom fonts to your package, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
+  # To add custom fonts to your package, you can use the "fonts" section:
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -56,5 +50,5 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
-  # For details regarding fonts in packages, see
+  # For more information about fonts, check:
   # https://flutter.dev/to/font-from-package

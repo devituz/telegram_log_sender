@@ -1,9 +1,9 @@
 [
   {
-    "firebase_q": true
+    "firebase_q": false
   },
    {
-    "firebase_od": true
+    "firebase_od": false
   },
   {
     "firebase_y": false
